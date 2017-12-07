@@ -17,7 +17,7 @@ var flag;
   if (!flag) [
     alert('nope you are wrong');
 
-    var number;
+var number;
 var counter = 1;
 
 while (number !== 20) {
@@ -35,5 +35,3 @@ while (number !== 20) {
   }
 
   console.log('counter:', counter);
-
-  ]
