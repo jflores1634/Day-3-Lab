@@ -1,5 +1,6 @@
 'use strict'
-
+alert('hello');
+function myStuff(){
 var stuff = ['pencil', 'cat', 'popcorn', 'book'];
 var answer = prompt('what is one of my fav things?');
 var flag;
@@ -14,9 +15,14 @@ var flag;
     }
   }
 
-  if (!flag) [
+  if (!flag) {
     alert('nope you are wrong');
+    console.log(myStuff)
+  }
+}
+  myStuff();
 
+function myCounter(){
 var number;
 var counter = 1;
 
@@ -32,6 +38,9 @@ while (number !== 20) {
   } else if (isNaN(number) || number === null) {
     alert('please enter a number');
    }
-  }
+    console.log('counter:', counter);
+}
+}
+myCounter();
 
-  console.log('counter:', counter);
+//
